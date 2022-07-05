@@ -1,12 +1,20 @@
 import React from 'react';
-import Form from './components/forms';
+import Card from './components/Card';
+import Form from './components/Form';
 
 class App extends React.Component {
+  constructor() {
+    super();
+    this.state = {
+    };
+  }
+
   render() {
     return (
       <div>
-        <h1>Tryunfoo</h1>
+        <h1>Tryunfo</h1>
         <Form />
+        <Card />
       </div>
     );
   }

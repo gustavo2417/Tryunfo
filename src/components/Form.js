@@ -29,6 +29,7 @@ class Form extends React.Component {
             />
           </label>
           <label htmlFor="descrição">
+            descrição:
             <input
               type="textarea"
               data-testid="description-input"
@@ -37,6 +38,7 @@ class Form extends React.Component {
             />
           </label>
           <label htmlFor="Number">
+            atributo:
             <input
               type="number"
               data-testid="attr1-input"
@@ -45,6 +47,7 @@ class Form extends React.Component {
             />
           </label>
           <label htmlFor="number2">
+            atributo:
             <input
               type="number"
               data-testid="attr2-input"
@@ -53,6 +56,7 @@ class Form extends React.Component {
             />
           </label>
           <label htmlFor="number3">
+            atributo:
             <input
               type="number"
               data-testid="attr3-input"
@@ -69,6 +73,7 @@ class Form extends React.Component {
             />
           </label>
           <label htmlFor="selection">
+            Raridade:
             <select
               data-testid="rare-input"
               value={ cardRare }
